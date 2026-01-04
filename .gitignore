@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+*.env
+
+# Temporary files
+tmp/
+temp/
+
+# Burp Suite / Security tools
+burp*
+*.burp
+*.xml
+
+# Nmap output
+*.gnmap
+*.nmap
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Archive files
+*.zip
+*.tar
+*.gz
+
