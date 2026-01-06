@@ -1,5 +1,5 @@
 
-<h1>>Burp Suite Intruder Writeup</h1
+Burp Suite Intruder Writeup
 
 Burp Suite Intruder মূলত একটি automated attack tool
 যেটা দিয়ে একই request বারবার modify করে server এর response observe করা হয়
@@ -7,14 +7,10 @@ Burp Suite Intruder মূলত একটি automated attack tool
 আমি সাধারণত Intruder ব্যবহার করি তখন
 যখন manual repeater দিয়ে test করা সময়সাপেক্ষ হয়ে যায়
 
-Intruder কেন ব্যবহার করি
-
 Repeated parameter testing এর জন্য
 Bruteforce type scenario check করার জন্য
 IDOR parameter sequential কিনা বুঝতে
 Rate limit বা input validation আছে কিনা দেখতে
-
-Intruder এ request পাঠানোর process
 
 Proxy বা Repeater থেকে request select করি
 Right click করে Send to Intruder দেই
@@ -36,7 +32,7 @@ Response length
 Status code
 Content difference observe করি
 
-Example scenario
+Example
 
 Original request ছিল
 profile?id=1
@@ -61,6 +57,7 @@ Intruder manual testing কে fast করে
 Repeater দিয়ে manually verify করি
 Real vulnerability বুঝতে
 Automation এর সাথে manual logic দরকার
+
 
 
 
