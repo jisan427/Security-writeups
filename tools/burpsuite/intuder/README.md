@@ -1,5 +1,5 @@
 
-Burp Suite Intruder Writeup
+Intruder 
 
 Burp Suite Intruder মূলত একটি automated attack tool
 যেটা দিয়ে একই request বারবার modify করে server এর response observe করা হয়

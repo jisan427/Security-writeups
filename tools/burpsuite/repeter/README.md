@@ -1,4 +1,4 @@
-      Burp Suite Repeater
+Repeater
 Burp Suite Repeater নিয়ে এই লেখা আমি আমার আগের practice experience থেকে লিখছি। এই tool টা আমি web penetration testing শেখার শুরুর দিকেই ভালোভাবে ব্যবহার করেছি। তখন lab solve করতাম আর request response বুঝার চেষ্টা করতাম কিন্তু তখন আলাদা করে writeup লেখা হয়নি। এখন শেখা জিনিসগুলো整理 করার জন্য এই লেখা।
 
 Burp Suite Repeater মূলত একটি manual testing tool। Proxy দিয়ে যেই HTTP request ধরা হয় সেটা Repeater এ পাঠিয়ে বারবার পাঠানো যায়। Request এর parameter change করে server কিভাবে respond করে সেটা দেখা যায়। Automated scan অনেক সময় যেগুলো ধরতে পারে না Repeater দিয়ে সেগুলো manually বোঝা যায়।
