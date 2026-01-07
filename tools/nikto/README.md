@@ -34,9 +34,9 @@ I observed the attackers performed an attack. The specific attack caused a leaka
 
 2. Missing Security Headers
 
-❌ X-Frame-Options
-❌ X-Content-Type-Options
-❌ Content-Security-Policy
+ X-Frame-Options,
+ X-Content-Type-Options,
+ Content-Security-Policy
 
 Clickjacking
 XSS risk
@@ -70,6 +70,6 @@ Directory listing
 
 
 ✍️ Written By
-MD JISAN ALI
+ JISAN 
 Cybersecurity Student| Junior Penetration Tester.
 Bangladesh 🇧🇩
