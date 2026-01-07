@@ -70,6 +70,6 @@ Directory listing
 
 
 ✍️ Written By
- JISAN 
-Cybersecurity Student| Junior Penetration Tester.
+JISAN 
+Cybersecurity Learner | Junior Penetration Tester.
 Bangladesh 🇧🇩

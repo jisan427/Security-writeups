@@ -59,5 +59,8 @@ Real vulnerability বুঝতে
 Automation এর সাথে manual logic দরকার
 
 
-
+✍️ Written By
+JISAN 
+Cybersecurity Learner | Junior Penetration Tester.
+Bangladesh 🇧🇩
 

@@ -50,5 +50,8 @@ default scripts
 
 
 
-
+✍️ Written By
+JISAN 
+Cybersecurity Learner | Junior Penetration Tester.
+Bangladesh 🇧🇩
 
