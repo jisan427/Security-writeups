@@ -112,11 +112,3 @@ Secure alternative approach ব্যবহার করা হয়নি
 High security থাকলেও 100% safe নয় — এটা এই lab থেকে শেখা যায়।
 
 
-
-
-📘 My Learning Outcome
-
-Security is high 2= 2.
-Input filtering bypass করার চিন্তাধারা
-Exploitation of logic flaw in the real world.
-DVWA High level দেয় knot-training realistic training.
