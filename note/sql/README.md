@@ -10,3 +10,7 @@
 7.column_name form all_tab_columns/information_schema.columns where table_name='name'
 8.username,password from table.
 9.username|password form table---single column
+
+----tool---
+  sqlmap -u url/?param= --batch for default
+  hackbar
