@@ -1,6 +1,6 @@
 Real ip find
 🔎 Shodan (generic example)
-shodan search 'ssl.cert.subject.CN:"example.com" 200' --fields ip_str
+ssl.cert.subject.CN:"rapfame.app"  200
 
 🌐 AlienVault OTX API (generic hostname)
 curl -s "https://otx.alienvault.com/api/v1/indicators/hostname/EXAMPLE_DOMAIN/url_list?limit=100&page=1"
@@ -21,4 +21,4 @@ curl -s https://example.com/favicon.ico | md5sum
 
 Censys
 
-censys search 'services.tls.certificates.leaf_data.subject.common_name: example.com'
+censys search services.tls.certificates.leaf_data.subject.common_name: example.com
