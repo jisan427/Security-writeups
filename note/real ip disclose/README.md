@@ -18,7 +18,9 @@ nmap --script ssl-cert -p 443 YOUR_LAB_IP
 curl -s https://example.com/favicon.ico | md5sum
 
 🌐 4️⃣ Censys Certificate Search
-
-Censys
-
-censys search services.tls.certificates.leaf_data.subject.common_name: example.com
+🌐Censys
+ services.tls.certificates.leaf_data.subject.common_name: example.com
+🌐 Fofa search
+🌐srt.sh search
+🌐dnsview ip history
+🌐cat /etc/hosts
