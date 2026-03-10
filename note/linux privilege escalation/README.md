@@ -46,7 +46,7 @@
          return 0;
       }
    *capabilities
-      getcap -r / 2>/dev/null
+       getcap -r / 2>/dev/null
 
    *file share
        nc -lvnp 9000<file.txt
