@@ -1,7 +1,7 @@
    linux privilege escalation
 
       ssh user@ip
-*enumeration
+*enumeration:
                   uanme -a
                   cat /etc/exorts
                   cat /proc/version
@@ -12,13 +12,13 @@
                   confiqure file
                   netstat
 
-*sudo missconfiguration
+*sudo missconfiguration:
        sudo -l
 
-*suid permission
+*suid permission:
       find / -type f -perm -04000/-u=x/-u+s,-perm -04000/-g=x/-g+s -ls 2>/dev/null
 
-*read/write permission
+*      read/write permission
        ls -la /etc/shadow/paswwd
 
  *nfs
